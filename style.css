@@ -41,10 +41,12 @@ a {
     /* background-attachment: fixed; */
     background-image: url('landing.jpg');
     background-position: bottom;
-    background-size: cover;
+    background-size: 700px;
     margin-bottom: 0px;
     z-index: 1;
     color: blueviolet;
+    height: 700px;
+    width: 700px;
 }
 
 .top {
@@ -84,7 +86,7 @@ a {
     width: 100vw;
     padding-bottom: 50px;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative
 }
 
 .project-cards {
@@ -117,7 +119,7 @@ a {
 
 .card-subtitle {
     font-size: 1.1em;
-    font-weight: bold;
+    font-weight: big;
 }
 
 #card-text {
@@ -193,13 +195,14 @@ a {
 /*-----------FOOTER----------*/
 
 footer {
-    background-color: aqua;
-}
+    background-color: aqua
+
 a {
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: transparent;
-    color: lemonchiffon;
+    color: lemonchiffon
+}
 }
